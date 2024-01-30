@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="todo">
+    <input type="text" id="input" placeholder="Enter todo...">
+    <button id="create_button">Create todo</button>
+</div>
+
+<div id="todo_list"></div>
+
+<!-- Модальное окно редактирования -->
+<div id="editModal">
+    <input type="text" id="editInput">
+    <button id="saveEditButton">Сохранить</button>
+    <button id="cancelButton">Отмена</button>
+</div>
+
+<!-- Счетчик -->
+<div id="counter_container">
+    <button id="decrement_button">-</button>
+    <input type="text" id="counter_input" readonly>
+    <button id="increment_button">+</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
