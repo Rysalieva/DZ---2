@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7d9196;
+    text-align: center;
+    padding: 20px;
+}
+
+.riddle-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #0c0b0b;
+    border-radius: 10px;
+    background-color: #7df9ff;
+    box-shadow: 0 4px 8px rgb(12, 11, 11);
+    transition: box-shadow 0.3s;
+}
+
+.riddle-container:hover {
+    box-shadow: 0 8px 16px rgb(2, 252, 242);
+}
+
+.answer-container {
+    display: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn.show-answer {
+    background-color: #7d9196;
+    color: white;
+}
+
+.btn.hide-answer {
+    background-color: rgba(255, 255, 255, 0.92);
+    color: #0c0b0b;
+}
