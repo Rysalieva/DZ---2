@@ -1,0 +1,56 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+h2 {
+    text-align: center;
+}
+
+th, td {
+    border: 2px solid #0a0e2a;
+    text-align: left;
+    padding: 8px;
+    font-weight: bolder;
+    color: #0c0b0b;
+}
+
+th {
+    background-color: rgb(161, 176, 255);
+}
+
+.grayed {
+    background-color: #aaacad;
+}
+
+.buyButton {
+    cursor: pointer;
+}
+
+#confirmationModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #53cbba;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.92);
+    z-index: 1000;
+}
+
+#confirmationModalOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
